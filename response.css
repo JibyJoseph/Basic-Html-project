@@ -1,0 +1,92 @@
+body
+	{
+		background: #fff;
+		
+    line-height: 30px;
+	}
+
+
+
+	.box1
+	{
+		 height: 450px;
+            width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+	}
+
+	.box2{
+            height: 450px;
+            width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-image: url(../image/pana.jpg);
+            font: bold;
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+	col-md-4
+	{padding-left:30px;}
+
+@media (min-width: 1201px) and (max-width: 2500px) { .container
+{ height: 150px;
+ }
+
+}
+
+
+	@media (min-width: 769px) and (max-width: 1200px)  {
+
+	 .container
+{ height: 100px;
+}
+{text-align: center;
+ 	font-size: 30px;}
+
+}
+
+ h1
+ {text-align: center; }
+
+ h2
+ {text-align: center;
+ 	font-size: 20px;}
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1119px) {
+.container
+{ height: 75px;
+}
+h2{text-align: center;
+ 	font-size: 15px;
+ 	
+
+}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 767px) {.container
+{ height: 25px;
+} 
+
+h2{text-align: center;
+ 	font-size: 10px;}
+
+}}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {.container
+{ height: 10px;
+
+}
+
+h2{text-align: center;
+ 	font-size: 5px;}
+
+}
+
+
+ }
